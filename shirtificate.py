@@ -12,7 +12,7 @@ class Shirtificate(FPDF):
         self.ln(20)
         self.cell(w=200,text= 'CS50 Shirtificate', align= 'C')
         self.ln(40)
-        self.image('shirtificate/shirtificate.png', w = 200, h= 200,
+        self.image('shirtificate.png', w = 200, h= 200,
                         x= 5, keep_aspect_ratio= True)
         self.set_xy(5, 120)
         self.set_text_color(255,255,255)
